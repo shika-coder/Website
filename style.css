@@ -1,5 +1,5 @@
 * {
-    background-color: #927488;
+    background-color: black;
     color: aliceblue;
     font-family: sans-serif;
 }
@@ -20,25 +20,23 @@ h1 {
 
 button {
     font-size: 25px;
-    width: 110px;
+    width: 200px;
     height:100px;
-    border-radius: 50%;
+    border-radius: 20px;
     background-color: #fff;
     color: #705a69;
     font-weight: bold;
     border: #fff;
+    justify-content: space-between;
+    margin: 10px;
 }
 
 #button1 {
     position: relative;
-    top: 100px;
-    left: -200px;
 }
 
 #button2 {
     position: relative;
-    top: 100px;
-    left: 200px;
 }
 
 input {

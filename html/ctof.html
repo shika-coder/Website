@@ -8,12 +8,17 @@
     <title>Celsius to Fahrenheit Calculator</title>
 </head>
 <body>
-    <h1>Celsius to Fahrenheit Calculator</h1>
+    <div class="top-lane">
+        <h1>Celsius to Fahrenheit Calculator</h1>
+        <button type="submit" id="back_button"><a href="/html/index.html">Go Back</a></button>
+    </div>
     <hr>
     <div class="calculator">
         <input type="number" id="input_field" placeholder="put in your number">
         <button type="submit" id="button_submit" onclick="ctof()">submit</button>
-        <p id="result"> </p>
+       <div class="result-box">
+            <p id="result"> </p>
+       </div>
     </div>
 </body>
 </html>

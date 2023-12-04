@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/file.css">
     <script src="/app.js"></script>
     <title>Celsius to Fahrenheit Calculator</title>
@@ -14,8 +13,10 @@
     </div>
     <hr>
     <div class="calculator">
-        <input type="number" id="input_field" placeholder="put in your number">
-        <button type="submit" id="button_submit" onclick="ctof()">submit</button>
+        <div class="input-fields">
+            <input type="number" id="input_field" placeholder="put in your number">
+            <button type="submit" id="button_submit" onclick="ctof()">submit</button>
+        </div>
        <div class="result-box">
             <p id="result"> </p>
        </div>

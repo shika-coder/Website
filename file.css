@@ -14,7 +14,8 @@ body {
 }
 
 .calculator {
-    margin-left: 440px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 button {
@@ -28,6 +29,7 @@ button {
     position: relative;
     top: 0.5px;
     font-weight: 500;
+    margin-right: 10px;
 }
 
 button a {
@@ -43,19 +45,25 @@ input {
     text-align: left;
     font-size: 24px;
     border: 3px solid black;
-}
-
-.top-lane h1 {
-  margin-left: 425px;  
+    border-radius: 5px;
+    margin-right: 10px; /* this property aligns the element 10 pixels away from the right border */
 }
 
 .result-box {
     border: 3px solid black;
-    margin-right: 480px;
+    margin-right: 10px; /* this property aligns the element 10 pixels away from the right border */
     padding-top: 0px;
     padding-bottom: 0px;
-    padding-left: 200px;
+    padding-left: 10px;
     margin-top: 10px;
+    border-radius: 5px;
+    width: 430px;
+}
+
+.top-lane h1 {
+    margin-left: 10px;
+    position: relative;
+    left: 130px;
 }
 
 #result {
@@ -71,4 +79,34 @@ input {
 
 hr {
     border: 3px solid black;
+}
+
+.input-fields {
+    margin: 0px 20px 0px 0px;
+}
+
+@media (max-width: 400px) {
+    input {
+        width: 100%;
+        padding: 10px;
+        text-align: left;
+        font-size: 24px;
+        border: 3px solid black;
+        border-radius: 5px;
+        margin-right: 10px; /* this property aligns the element 10 pixels away from the right border */
+    }
+}
+
+
+@media (max-width: 500px) {
+    .top-lane h1 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 461px) {
+    .result-box {
+        border: 3px solid black;
+        width: 100%;
+    }
 }

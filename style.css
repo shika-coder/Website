@@ -7,6 +7,7 @@
 h1 {
     text-align: center;
     font-size: 50px;
+    padding-top: 30px;
 }
 
 .calculator {
@@ -23,12 +24,16 @@ button {
     width: 200px;
     height:100px;
     border-radius: 20px;
-    background-color: #fff;
-    color: #705a69;
+    background-color: black;
+    color: white;
     font-weight: bold;
-    border: #fff;
+    border:3px solid #fff;
     justify-content: space-between;
     margin: 10px;
+}
+
+button:active {
+    background-color: white;
 }
 
 #button1 {
@@ -66,4 +71,54 @@ input {
     display: inline-block;
     list-style: none;
     margin: 0 20px;
+}
+
+.ul-info {
+    list-style: none;
+    border: 3px solid white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.info-box-around {
+    width: 360px;
+    position: relative;
+    margin: auto;
+}
+
+.back-button {
+    background-color: black;
+    border: 3px solid white;
+}
+.back-button a {
+    text-decoration: none;
+}
+
+input {
+    padding: 10px;
+    text-align: left;
+    font-size: 24px;
+    border: 3px solid white;
+    border-radius: 5px;
+    margin-right: 10px; /* this property aligns the element 10 pixels away from the right border */
+    background-color: black;
+}
+
+.feedback_field {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feedback-field {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.feedback-field button {
+    width: 150px;
+    height: 75px;
+    padding-left: 10px;
+    padding-right: 10px;
 }

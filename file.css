@@ -119,3 +119,9 @@ hr {
         width: 100%;
     }
 }
+
+.info_box_celsius {
+    margin-right: 50px;
+    border: 3px solid white;
+    width: 200px;
+}

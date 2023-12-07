@@ -81,6 +81,18 @@ input {
     border: 3px solid white;
     padding-top: 20px;
     padding-bottom: 20px;
+    font-size: 20px;
+    width: 600px;
+    padding-left: 0px;
+    position: relative;
+    left: -110px;
+    font-weight: bold;
+
+}
+
+.ul-info li {
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .info-box-around {
@@ -174,4 +186,14 @@ input {
         justify-content: space-between;
         margin: auto;
     }
+}
+
+.contact_image {
+    display: block;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 20px;
+    margin-bottom: 50px;
 }
